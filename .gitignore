@@ -1,0 +1,59 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+mytask-front/node_modules
+mytask-front/.pnp
+mytask-front/.pnp.js
+
+# testing
+mytask-front/coverage
+
+# production
+mytask-front//build
+
+# misc
+mytask-front/.DS_Store
+mytask-front/.env.local
+mytask-front/.env.development.local
+mytask-front/.env.test.local
+mytask-front/.env.production.local
+
+mytask-front/npm-debug.log*
+mytask-front/yarn-debug.log*
+mytask-front/yarn-error.log*
+
+# compiled output
+mytask/dist
+mytask/node_modules
+
+# Logs
+mytask/logs
+mytask/*.log
+mytask/npm-debug.log*
+mytask/pnpm-debug.log*
+mytask/yarn-debug.log*
+mytask/yarn-error.log*
+mytask/lerna-debug.log*
+
+# OS
+mytask/.DS_Store
+
+# Tests
+mytask/coverage
+mytask/.nyc_output
+
+# IDEs and editors
+mytask/.idea
+mytask/.project
+mytask/.classpath
+mytask/.c9/
+mytask/*.launch
+mytask/.settings/
+mytask/*.sublime-workspace
+
+# IDE - VSCode
+mytask/.vscode/*
+mytask/!.vscode/settings.json
+mytask/!.vscode/tasks.json
+mytask/!.vscode/launch.json
+mytask/!.vscode/extensions.json
